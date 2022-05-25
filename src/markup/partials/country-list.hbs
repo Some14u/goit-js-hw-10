@@ -1,0 +1,9 @@
+
+{{#each this}}
+  <li>
+    <img src="{{#with flags.svg}}{{this}}{{else}}{{flags.png}}{{/with}}" alt="Flag image" width="24" />
+    {{name.common}}
+  </li>
+{{/each}}
+
+
